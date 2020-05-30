@@ -8,12 +8,12 @@ iii.-mínimo 2 máximo 20
 
 
 Pruebas Unitarias:
--letras \n
--símbolos (excluyendo el “+” y “-”) \n
--decimales
--null 
--números con “+-”
--mezcla de simbolos y numeros 
--mezcla de letras y números 
--arreglo tiene más largo que el largo permitido 
--valores fuera del rango (-1000<a<1000)
+-letras
+ -símbolos (excluyendo el “+” y “-”) 
+ -decimales
+ -null 
+ -números con “+-”
+ -mezcla de simbolos y numeros 
+ -mezcla de letras y números 
+ -arreglo tiene más largo que el largo permitido 
+ -valores fuera del rango (-1000<a<1000)
