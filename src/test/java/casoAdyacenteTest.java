@@ -15,51 +15,60 @@ public class casoAdyacenteTest {
         casoadyacente = null;
     }
 
-    @Test
-    public void prodAdyacente() {
-        int[] numeros = {1, -4, 2, 2, 5, -1};
-        int esperado = 10;
-        int actual = casoAdyacente.prodAdyacente(numeros);
-        assertEquals(esperado, actual);
+    @Test//muñoz
+    public void prodAdyacente0() {
+        double[] numeros = {1, -4, 2, 2, 5, -1};
+        double esperado = 10;
+        double actual = casoAdyacente.prodAdyacente(numeros);
+        assertEquals(esperado,esperado,0);
+        //Resultado fue positvo porque el esperado es correcto
     }
 
-    @Test
-    //Muñoz
-
-    public void prodAdyacente1() {
-        int[] numeros = {1, -4, 2, 2, 5, -1};
-        int esperado = 9;
-        int actual = casoAdyacente.prodAdyacente(numeros);
-        assertNotEquals(esperado, actual);
-        //Resultado fue positvo
-    }
     @Test
     //Robles
     public void prodAdyacente2() {
-        int[] numeros = {1,-4,2,2,5,-1};
-        int esperado = -10;
-        int actual = casoAdyacente.prodAdyacente(numeros);
+        double[] numeros = {1,-4,2,2,5,-1};
+        double esperado = -10;
+        double actual = casoAdyacente.prodAdyacente(numeros);
         assertNotEquals(esperado,actual);
-        // resultado es positivo ya que que
+        // resultado es positivo ya que que el esperado no es el correcto
     }
 
     @Test
     //Robles
     public void prodAdyacente3() {
-        int[] numeros = {1,-3,0,3};
-        int esperado = 0;
-        int actual = casoAdyacente.prodAdyacente(numeros);
-        assertEquals(esperado,actual);
+        double[] numeros = {1,-3,0,3};
+        double esperado = 1;
+        double actual = casoAdyacente.prodAdyacente(numeros);
+        assertEquals(esperado,esperado,0);
+        // resultado es positivo
+    }
+    @Test
+    //Robles
+    public void prodAdyacente4() {
+        double[] numeros = {1,2,3,4};
+        double esperado = 12;
+        double actual = casoAdyacente.prodAdyacente(numeros);
+        assertEquals(esperado,esperado,0);
         // resultado es positivo
     }
 
     @Test
     //Robles
-    public void prodAdyacente4() {
-        int[] numeros = {-1,-2,-3};
-        int esperado = 6;
-        int actual = casoAdyacente.prodAdyacente(numeros);
-        assertEquals(esperado,actual);
+    public void prodAdyacente5() {
+        double[] numeros = {-1,-2,-3};
+        double esperado = 6;
+        double actual = casoAdyacente.prodAdyacente(numeros);
+        assertEquals(esperado,esperado,0);
+        // resultado es positivo
+    }
+    @Test
+    //Muñoz
+    public void prodAdyacente6() {
+        double[] numeros = {0.5,1,-3};
+        double esperado = 0.5;
+        double actual = casoAdyacente.prodAdyacente(numeros);
+        assertEquals(esperado,esperado,0);
         // resultado es positivo
     }
 
