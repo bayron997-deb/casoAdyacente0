@@ -11,7 +11,7 @@ public class casoAdyacente {
         }
         return result;
     }
-    public static void validador(){
+    public static void arreglo(){
         System.out.println("Ingrese cantidad de numeros a comparar: ");
         int largo=teclado.nextInt();
         int [] numeros=new int[largo];
