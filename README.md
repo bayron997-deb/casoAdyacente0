@@ -1,16 +1,13 @@
 # casoAdyacente
-paso 0:
 
 parámetros:
-i.-int
-ii.-int
+i.-largo int
+ii.-numeros double
 iii.-mínimo 2 máximo 20
 
-paso 1:
--comparar la multiplicación de los números y guardarlos en una variable
 
 
-pruebas unitarias:
+Pruebas Unitarias:
 -letras 
 -símbolos (excluyendo el “+” y “-”)
 -decimales
@@ -18,6 +15,5 @@ pruebas unitarias:
 -números con “+-”
 -mezcla de simbolos y numeros 
 -mezcla de letras y números 
--(rebuscado?)al ingresar “e” o “pi” entregue un mensaje de que el número no es válido
 -arreglo tiene más largo que el largo permitido 
--valores fuera del rango (1000)
+-valores fuera del rango (-1000<a<1000)
