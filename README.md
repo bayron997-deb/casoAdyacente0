@@ -8,8 +8,8 @@ iii.-mínimo 2 máximo 20
 
 
 Pruebas Unitarias:
--letras 
--símbolos (excluyendo el “+” y “-”)
+-letras \n
+-símbolos (excluyendo el “+” y “-”) \n
 -decimales
 -null 
 -números con “+-”
