@@ -7,9 +7,9 @@
 
 
 
-*Pruebas Unitarias:
--letras, mezcla símbolos/letras y números
--Símbolos (excluyendo el “+” y “-”) 
--Decimales 
--Arreglo tiene más largo que el largo permitido 
--Valores fuera del rango (-1000<a<1000)
+* Pruebas Unitarias:
+* letras, mezcla símbolos/letras y números
+* Símbolos (excluyendo el “+” y “-”) 
+* Decimales 
+* Arreglo tiene más largo que el largo permitido 
+* Valores fuera del rango (-1000<a<1000)
