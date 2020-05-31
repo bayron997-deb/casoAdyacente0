@@ -1,19 +1,15 @@
 # casoAdyacente
 
-parámetros:
-i.-largo int
-ii.-numeros double
-iii.-mínimo 2 máximo 20
+*parámetros:
+1. Largo int
+2. Números double
+3. Mínimo 2 máximo 20
 
 
 
-Pruebas Unitarias:
--letras
- -símbolos (excluyendo el “+” y “-”) 
- -decimales
- -null 
- -números con “+-”
- -mezcla de simbolos y numeros 
- -mezcla de letras y números 
- -arreglo tiene más largo que el largo permitido 
- -valores fuera del rango (-1000<a<1000)
+*Pruebas Unitarias:
+-letras, mezcla símbolos/letras y números
+-Símbolos (excluyendo el “+” y “-”) 
+-Decimales 
+-Arreglo tiene más largo que el largo permitido 
+-Valores fuera del rango (-1000<a<1000)
